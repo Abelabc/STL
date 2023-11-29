@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\clion_library\untitled
+CMAKE_SOURCE_DIR = D:\clion_library\stack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\clion_library\untitled\cmake-build-debug
+CMAKE_BINARY_DIR = D:\clion_library\stack\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -69,48 +69,32 @@ include CMakeFiles/untitled.dir/progress.make
 include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/main.cpp.obj: D:/clion_library/untitled/main.cpp
+CMakeFiles/untitled.dir/main.cpp.obj: D:/clion_library/stack/main.cpp
 CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_library\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
-	D:\mingw64\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/main.cpp.obj -MF CMakeFiles\untitled.dir\main.cpp.obj.d -o CMakeFiles\untitled.dir\main.cpp.obj -c D:\clion_library\untitled\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_library\stack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
+	D:\mingw64\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/main.cpp.obj -MF CMakeFiles\untitled.dir\main.cpp.obj.d -o CMakeFiles\untitled.dir\main.cpp.obj -c D:\clion_library\stack\main.cpp
 
 CMakeFiles/untitled.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	D:\mingw64\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_library\untitled\main.cpp > CMakeFiles\untitled.dir\main.cpp.i
+	D:\mingw64\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_library\stack\main.cpp > CMakeFiles\untitled.dir\main.cpp.i
 
 CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	D:\mingw64\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_library\untitled\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
-
-CMakeFiles/untitled.dir/stk.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/stk.cpp.obj: D:/clion_library/untitled/stk.cpp
-CMakeFiles/untitled.dir/stk.cpp.obj: CMakeFiles/untitled.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion_library\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/stk.cpp.obj"
-	D:\mingw64\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled.dir/stk.cpp.obj -MF CMakeFiles\untitled.dir\stk.cpp.obj.d -o CMakeFiles\untitled.dir\stk.cpp.obj -c D:\clion_library\untitled\stk.cpp
-
-CMakeFiles/untitled.dir/stk.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/stk.cpp.i"
-	D:\mingw64\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion_library\untitled\stk.cpp > CMakeFiles\untitled.dir\stk.cpp.i
-
-CMakeFiles/untitled.dir/stk.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/stk.cpp.s"
-	D:\mingw64\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_library\untitled\stk.cpp -o CMakeFiles\untitled.dir\stk.cpp.s
+	D:\mingw64\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion_library\stack\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/main.cpp.obj" \
-"CMakeFiles/untitled.dir/stk.cpp.obj"
+"CMakeFiles/untitled.dir/main.cpp.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled.exe: CMakeFiles/untitled.dir/main.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/stk.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linkLibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\clion_library\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\clion_library\stack\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +106,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\clion_library\untitled D:\clion_library\untitled D:\clion_library\untitled\cmake-build-debug D:\clion_library\untitled\cmake-build-debug D:\clion_library\untitled\cmake-build-debug\CMakeFiles\untitled.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\clion_library\stack D:\clion_library\stack D:\clion_library\stack\cmake-build-debug D:\clion_library\stack\cmake-build-debug D:\clion_library\stack\cmake-build-debug\CMakeFiles\untitled.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 

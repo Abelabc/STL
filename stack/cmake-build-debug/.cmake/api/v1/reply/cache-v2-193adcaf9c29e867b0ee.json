@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/clion_library/untitled/cmake-build-debug"
+			"value" : "d:/clion_library/stack/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/clion_library/untitled/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/clion_library/stack/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/clion_library/untitled"
+			"value" : "D:/clion_library/stack"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -943,7 +943,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "untitled"
+			"value" : "stack"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1334,6 +1334,42 @@
 			"value" : "TRUE"
 		},
 		{
+			"name" : "stack_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/clion_library/stack/cmake-build-debug"
+		},
+		{
+			"name" : "stack_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "stack_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/clion_library/stack"
+		},
+		{
 			"name" : "untitled_BINARY_DIR",
 			"properties" : 
 			[
@@ -1343,7 +1379,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/clion_library/untitled/cmake-build-debug"
+			"value" : "D:/clion_library/stack/cmake-build-debug"
 		},
 		{
 			"name" : "untitled_IS_TOP_LEVEL",
@@ -1367,7 +1403,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/clion_library/untitled"
+			"value" : "D:/clion_library/stack"
 		}
 	],
 	"kind" : "cache",

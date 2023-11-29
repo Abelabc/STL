@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\clion_library\untitled
+CMAKE_SOURCE_DIR = D:\clion_library\stack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\clion_library\untitled\cmake-build-debug
+CMAKE_BINARY_DIR = D:\clion_library\stack\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_library\untitled\cmake-build-debug\CMakeFiles D:\clion_library\untitled\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_library\stack\cmake-build-debug\CMakeFiles D:\clion_library\stack\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_library\untitled\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\clion_library\stack\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-stk.obj: stk.cpp.obj
-.PHONY : stk.obj
-
-# target to build an object file
-stk.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/stk.cpp.obj
-.PHONY : stk.cpp.obj
-
-stk.i: stk.cpp.i
-.PHONY : stk.i
-
-# target to preprocess a source file
-stk.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/stk.cpp.i
-.PHONY : stk.cpp.i
-
-stk.s: stk.cpp.s
-.PHONY : stk.s
-
-# target to generate assembly for a file
-stk.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/stk.cpp.s
-.PHONY : stk.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... stk.obj
-	@echo ... stk.i
-	@echo ... stk.s
 .PHONY : help
 
 

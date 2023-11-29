@@ -164,8 +164,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/clion_library/untitled/cmake-build-debug",
-		"source" : "D:/clion_library/untitled"
+		"build" : "D:/clion_library/stack/cmake-build-debug",
+		"source" : "D:/clion_library/stack"
 	},
 	"version" : 
 	{

@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "untitled",
+					"name" : "stack",
 					"targetIndexes" : 
 					[
 						0
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "untitled::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled-Debug-5aa693003a1c6053b083.json",
+					"jsonFile" : "target-untitled-Debug-e98ec6f6f17700efbcc5.json",
 					"name" : "untitled",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/clion_library/untitled/cmake-build-debug",
-		"source" : "D:/clion_library/untitled"
+		"build" : "D:/clion_library/stack/cmake-build-debug",
+		"source" : "D:/clion_library/stack"
 	},
 	"version" : 
 	{

@@ -1,4 +1,4 @@
-CMakeFiles/untitled.dir/main.cpp.obj: D:\clion_library\untitled\main.cpp \
+CMakeFiles/untitled.dir/main.cpp.obj: D:\clion_library\stack\main.cpp \
  D:/mingw64/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  D:/mingw64/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/mingw64/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -136,4 +136,4 @@ CMakeFiles/untitled.dir/main.cpp.obj: D:\clion_library\untitled\main.cpp \
  D:/mingw64/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
  D:/mingw64/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
  D:/mingw64/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
- D:\clion_library\untitled\stk.h
+ D:\clion_library\stack\stk.h

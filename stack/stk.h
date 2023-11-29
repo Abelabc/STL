@@ -10,7 +10,7 @@ using namespace std;
 class stk {
 public:
     //构造函数
-    stk(int size = 1000) : msize(size),mtop(0)
+    stk(int size =0) : msize(size),mtop(0)
     {
         cout<<"stk(int)"<<endl;
         mpstack = new int[size];
@@ -51,9 +51,27 @@ public:
         }
         return *this;
     }
-    int getsize()
+    int getsize() const
     {
         return msize;
+    }
+    void push(int x){
+        cout<<"push "<<x<<endl;
+        mpstack[msize]=x;
+        msize++;
+        mtop=x;
+    }
+    void pop(){
+        if (msize==0) {
+            cout<<"error"<<endl;
+            return;
+        }
+        cout<<"pop"<<msize<<endl;
+        msize--;
+        mtop=mpstack[msize];
+    }
+    [[nodiscard]] int top() const{
+        return mtop;
     }
 
 private:
