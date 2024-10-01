@@ -79,6 +79,10 @@ private:
     int mtop;//栈顶
     int msize;//尺寸
 };
-
+stk GetStack(stk &stack)
+{
+    stk tmp(stack.getsize());
+    return tmp;
+}
 
 #endif //UNTITLED_STK_H
